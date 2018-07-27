@@ -97,4 +97,4 @@ HTML-верстка находится в директории `./storage/markup
 [link_releases]:https://github.com/avtocod/avtocod-php-developer-test-task/releases
 [link_commits]:https://github.com/avtocod/avtocod-php-developer-test-task/commits
 [link_issues]:https://github.com/avtocod/avtocod-php-developer-test-task/issues
-[link_create_issue]:https://github.com/avtocod/avtocod-php-developer-test-task/issues/new/choose
+[link_create_issue]:https://github.com/avtocod/avtocod-php-developer-test-task/issues/new
