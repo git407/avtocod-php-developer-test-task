@@ -43,8 +43,9 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate",
-            "@php -r \"file_exists('README.md') && file_put_contents('README.md', '# Put your readme file content here' . PHP_EOL);\""
+            "@php -r \"file_exists('./database/database.sqlite') || file_put_contents('./database/database.sqlite', null);\"",
+            "@php -r \"file_exists('README.md') && file_put_contents('README.md', '# Put your readme file content here' . PHP_EOL);\"",
+            "@php artisan key:generate"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
